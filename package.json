@@ -1,0 +1,30 @@
+{
+  "name": "webpage-screenshot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node --loader ts-node/esm ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limichange/webpage-screenshot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limichange/webpage-screenshot/issues"
+  },
+  "homepage": "https://github.com/limichange/webpage-screenshot#readme",
+  "dependencies": {
+    "@types/merge-img": "^2.1.1",
+    "@types/node": "^17.0.21",
+    "dotenv": "^16.0.0",
+    "jimp": "^0.16.1",
+    "merge-img": "^2.1.3",
+    "puppeteer": "^13.4.1",
+    "puppeteer-full-page-screenshot": "^1.2.2",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
+}
